@@ -1,3 +1,3 @@
-# ANNN_LP 
-([Ссылка на сайт](https://baturinss.github.io/ANNN_LP/))
+# ANNN_LP
+([Ссылка на сайт](https://baturinss.github.io/annn-demo/))
  Продающий лендинг для агентства недвижимости в Нижнем Новгороде
