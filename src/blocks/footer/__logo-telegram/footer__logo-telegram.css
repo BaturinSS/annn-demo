@@ -8,3 +8,9 @@
 .footer__logo-telegram:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 670px) {
+  .footer__logo-telegram {
+    max-width: 145px;
+  }
+}
