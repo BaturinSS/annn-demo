@@ -1,0 +1,21 @@
+.feedback__checkbox_group {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid green; */
+}
+
+@media screen and (max-width: 1440px) {
+  .feedback__checkbox_group {
+    row-gap: calc((100vw - 744px)/(1440 - 744) * (27 - 19) + 19px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .feedback__checkbox_group {
+    row-gap: calc((100vw - 377px)/(744 - 377) * (19 - 13) + 13px);
+  }
+}

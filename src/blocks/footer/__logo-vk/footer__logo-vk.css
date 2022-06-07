@@ -1,0 +1,24 @@
+.footer__logo-vk {
+  height: 21px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+
+.footer__logo-vk:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__logo-vk {
+    height: calc((100vw - 744px)/(1440 - 744) * (21 - 11) + 11px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__logo-vk {
+    height: calc((100vw - 377px)/(744 - 377) * (19 - 14) + 14px);
+  }
+}

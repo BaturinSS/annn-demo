@@ -1,0 +1,15 @@
+.popup__image-ok {
+  max-width: 175px;
+}
+
+@media screen and (max-width: 1440px) {
+  .popup__image-ok {
+    max-width: calc((100vw - 744px)/(1440 - 744) * (175 - 105) + 105px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .popup__image-ok {
+    max-width: calc((100vw - 377px)/(744 - 377) * (105 - 52) + 52px);
+  }
+}

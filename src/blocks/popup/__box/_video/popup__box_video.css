@@ -1,0 +1,14 @@
+.popup__box_video {
+  position: relative;
+  width: 75%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 744px) {
+  .popup__box_video {
+    width: 90%;
+  }
+}

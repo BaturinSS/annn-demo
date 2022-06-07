@@ -1,0 +1,32 @@
+.header__number-phone {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  opacity: 0.7;
+  transition: 0.7s;
+  text-align: center;
+  text-decoration: none;
+  color: #CD9451;
+  /* border: 1px solid gray; */
+}
+
+.header__number-phone:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .header__number-phone {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__number-phone {
+    display: none;
+  }
+}

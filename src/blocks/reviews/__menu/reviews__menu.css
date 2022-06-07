@@ -1,0 +1,8 @@
+.reviews__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  /* border: 1px solid green; */
+}

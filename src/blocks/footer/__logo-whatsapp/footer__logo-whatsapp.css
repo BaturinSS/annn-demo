@@ -1,0 +1,23 @@
+.footer__logo-whatsapp {
+  width: 25px;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+
+.footer__logo-whatsapp:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__logo-whatsapp {
+    height: calc((100vw - 744px)/(1440 - 744) * (25 - 13) + 13px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__logo-whatsapp {
+    height: calc((100vw - 377px)/(744 - 377) * (22 - 17) + 17px);
+  }
+}

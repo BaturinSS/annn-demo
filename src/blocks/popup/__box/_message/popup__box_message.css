@@ -1,0 +1,19 @@
+.popup__box_message {
+  padding: 100px 182px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181818;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1440px) {
+  .popup__box_message {
+    padding: calc((100vw - 744px)/(1440 - 744) * (100 - 50) + 50px) calc((100vw - 744px)/(1440 - 744) * (182 - 90) + 90px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .popup__box_message {
+    padding: calc((100vw - 377px)/(744 - 377) * (50 - 25) + 25px) calc((100vw - 377px)/(744 - 377) * (90 - 60) + 60px);
+  }
+}

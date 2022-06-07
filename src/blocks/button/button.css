@@ -1,0 +1,15 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: #CD9451;
+  color: #181818;
+  transition: 0.5s;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: #AB7A40;
+}

@@ -1,0 +1,22 @@
+.reviews__date {
+  margin: 5px 0 15px;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+  color: #CD9451;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1400px) {
+  .reviews__date {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .reviews__date {
+    margin: 5px 0 14px;
+  }
+}

@@ -1,0 +1,20 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 100px 30px;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1400px) {
+  .reviews {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .reviews {
+    padding-bottom: 0;
+  }
+}

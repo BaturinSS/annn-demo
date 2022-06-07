@@ -1,0 +1,7 @@
+.feedback__checkbox_title {
+  width: max-content;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}

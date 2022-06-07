@@ -1,0 +1,27 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  margin: 0;
+  padding: 150px 100px 75px;
+  background: #181818;
+}
+
+@media screen and (max-width: 1440px) {
+  .feedback {
+    padding-top: calc((100vw - 744px)/(1440 - 744) * (150 - 80) + 80px);
+    padding-right: calc((100vw - 744px)/(1440 - 744) * (100 - 60) + 60px);
+    padding-bottom: calc((100vw - 744px)/(1440 - 744) * (75 - 30) + 30px);
+    padding-left: calc((100vw - 744px)/(1440 - 744) * (100 - 60) + 60px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .feedback {
+    padding-top: calc((100vw - 377px)/(744 - 377) * (80 - 50) + 50px);
+    padding-right: calc((100vw - 377px)/(744 - 377) * (60 - 20) + 20px);
+    padding-bottom: calc((100vw - 377px)/(744 - 377) * (30 - 20) + 20px);
+    padding-left: calc((100vw - 377px)/(744 - 377) * (60 - 20) + 20px);
+  }
+}

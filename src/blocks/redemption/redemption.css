@@ -1,0 +1,33 @@
+.redemption {
+  max-height: 380px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 50px 100px;
+  background: linear-gradient(180deg, rgba(205, 148, 81, 0.5) 0%, #CD9451 100%), url('../../images/redemption/urgent_redemption.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1440px) {
+  .redemption {
+    padding-left: calc((100vw - 744px)/(1440 - 744) * (100 - 55) + 55px);
+    padding-right: calc((100vw - 744px)/(1440 - 744) * (100 - 55) + 55px);
+    padding-top: calc((100vw - 744px)/(1440 - 744) * (50 - 25) + 25px);
+    padding-bottom: calc((100vw - 744px)/(1440 - 744) * (50 - 25) + 25px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .redemption {
+    align-items: flex-start;
+    padding-left: calc((100vw - 377px)/(744 - 377) * (55 - 20) + 20px);
+    padding-right: calc((100vw - 377px)/(744 - 377) * (55 - 20) + 20px);
+    padding-top: calc((100vw - 377px)/(744 - 377) * (25 - 13) + 13px);
+    padding-bottom: calc((100vw - 377px)/(744 - 377) * (25 - 13) + 13px);
+  }
+}

@@ -1,0 +1,88 @@
+.foto__button {
+  position: relative;
+  max-height: 70px;
+  max-width: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 45px;
+  padding: 35px;
+  text-decoration: none;
+  background: none;
+  background-color: rgba(38, 38, 38, 0.5);
+  background-image: url(../../../images/agent/play.svg);
+  background-repeat: no-repeat;
+  background-size: 23px 26px;
+  background-position: center center;
+  transition: 2s;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  border: 2px solid #CD9451;
+  z-index: 3;
+}
+
+.foto__button::before {
+  content: 'Смотреть видео';
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-left: -40px;
+  color: #EEEEEE;
+  min-width: 100%;
+  min-height: 100%;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 4;
+}
+
+@media screen and (min-width: 880px) {
+  .foto__button:hover {
+    padding: 35px 128px;
+    transition: 0.5s;
+    background-color: rgba(38, 38, 38, 0.8);
+    background-position: center right 39px;
+    cursor: pointer;
+  }
+
+  .foto__button:hover::before {
+    opacity: 1;
+    transition: 1.5s;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .foto__button {
+    height: 50px;
+    padding: 20px 85px;
+    background-size: 20px 23px;
+    background-position: center right 18px;
+    margin-bottom: 20px;
+  }
+
+  .foto__button::before {
+    opacity: 1;
+    transition: 3s;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: -20px;
+  }
+
+  .foto__button:hover {
+    transition: 0.5s;
+    background-color: rgba(38, 38, 38, 0.8);
+    cursor: pointer;
+  }
+
+  .foto__button:hover::before {
+    transition: 1.5s;
+    cursor: pointer;
+  }
+}

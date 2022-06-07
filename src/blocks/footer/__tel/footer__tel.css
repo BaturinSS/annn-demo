@@ -1,0 +1,30 @@
+.footer__tel {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  color: #EEEEEE;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.footer__tel:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__tel {
+    font-size: calc((100vw - 744px)/(1440 - 744) * (20 - 10) + 10px);
+    line-height: calc((100vw - 744px)/(1440 - 744) * (20 - 10) + 10px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__tel {
+    font-size: calc((100vw - 377px)/(744 - 377) * (15 - 10) + 10px);
+    line-height: calc((100vw - 377px)/(744 - 377) * (20 - 10) + 10px);
+  }
+}

@@ -1,0 +1,23 @@
+.footer__description {
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__description {
+    font-size: calc((100vw - 744px)/(1440 - 744) * (20 - 10) + 10px);
+    line-height: calc((100vw - 744px)/(1440 - 744) * (20 - 10) + 10px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__description {
+    font-size: calc((100vw - 377px)/(744 - 377) * (15 - 10) + 10px);
+    line-height: 10px;
+  }
+}

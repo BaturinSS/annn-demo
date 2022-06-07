@@ -1,0 +1,13 @@
+.root {
+  min-width: 375px;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #EEEEEE;
+  font-family: 'Jost', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* border: 1px solid red; */
+  z-index: 1;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

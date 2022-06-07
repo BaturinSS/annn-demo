@@ -1,0 +1,32 @@
+.teaser__subtitle {
+  width: max-content;
+  padding: 0;
+  margin: 20px 0 0;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 150%;
+  color: #EEEEEE;
+}
+
+@media screen and (max-width: 1100px) {
+  .teaser__subtitle {
+    font-size: 22px;
+    line-height: 145%;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .teaser__subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 140%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teaser__subtitle {
+    width: 246px;
+    font-size: 20px;
+    line-height: 140%;
+  }
+}

@@ -1,0 +1,20 @@
+.contacts__map-yandex {
+  width: 100%;
+  height: 682px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts__map-yandex {
+    height: calc((100vw - 744px)/(1440 - 744) * (682 - 347) + 347px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .contacts__map-yandex {
+    height: calc((100vw - 377px)/(744 - 377) * (391 - 220) + 220px);
+  }
+}

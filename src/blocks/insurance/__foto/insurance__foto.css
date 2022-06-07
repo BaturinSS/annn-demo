@@ -1,0 +1,23 @@
+.insurance__foto {
+  margin: 0;
+  padding: 0;
+  max-height: 761px;
+  height: calc((100vw - 744px)/(1440 - 744) * (761 - 417) + 417px);
+  background-image: url('../../../images/demo-document.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: flex-end;
+  z-index: 0;
+}
+
+@media screen and (max-width: 744px) {
+  .insurance__foto {
+    height: 471px;
+  }
+}
+
+.insurance__foto:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

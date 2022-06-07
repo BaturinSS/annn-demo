@@ -1,0 +1,20 @@
+.choice__item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid #EEEEEE;
+  /* border: 1px solid rgb(55, 0, 255); */
+}
+
+.choice__item:last-child {
+  border: none;
+}
+
+@media screen and (max-width: 700px) {
+  .choice__item {
+    border: none;
+  }
+}

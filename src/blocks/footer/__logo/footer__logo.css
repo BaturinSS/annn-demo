@@ -1,0 +1,17 @@
+.footer__logo {
+  width: 153px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__logo {
+    width: calc((100vw - 744px)/(1440 - 744) * (153 - 69) + 69px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__logo {
+    width: calc((100vw - 377px)/(744 - 377) * (110 - 76) + 76px);
+  }
+}

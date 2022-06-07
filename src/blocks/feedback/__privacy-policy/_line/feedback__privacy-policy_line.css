@@ -1,0 +1,9 @@
+.feedback__privacy-policy_line {
+  text-decoration: underline;
+  color: white;
+}
+
+.feedback__privacy-policy_line:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

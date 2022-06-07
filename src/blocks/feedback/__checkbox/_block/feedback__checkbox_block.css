@@ -1,0 +1,31 @@
+.feedback__checkbox_block {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 80px;
+  /* border: 1px solid wheat; */
+}
+
+@media screen and (max-width: 1440px) {
+  .feedback__checkbox_block {
+    column-gap: calc((100vw - 1100px)/(1440 - 1100) * (80 - 20) + 20px);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .feedback__checkbox_block {
+    column-gap: calc((100vw - 700px)/(1100 - 700) * (170 - 47) + 47px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .feedback__checkbox_block {
+    column-gap: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .feedback__checkbox_block {
+    column-gap: calc((100vw - 377px)/(700 - 377) * (100 - 50) + 50px);
+  }
+}

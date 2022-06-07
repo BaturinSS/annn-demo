@@ -1,0 +1,12 @@
+.teaser__title_type_color {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: #CD9451;
+}
+
+@media screen and (max-width: 600px) {
+  .teaser__title_type_color {
+    display: block
+  }
+}

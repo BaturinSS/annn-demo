@@ -1,0 +1,25 @@
+.contacts__time_image {
+  background: no-repeat center center url('../../../../images/contacts/arrows.svg');
+  background-size: 10px;
+  width: 48px;
+  display: flex;
+  margin: 0 15px 0 0;
+  padding: 0;
+  grid-area: logo;
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts__time_image {
+    background-size: calc((100vw - 744px)/(1440 - 744) * (10 - 5) + 5px);
+    width: calc((100vw - 744px)/(1440 - 744) * (48 - 25) + 25px);
+    margin-right: calc((100vw - 744px)/(1440 - 744) * (15 - 7) + 7px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .contacts__time_image {
+    background-size: calc((100vw - 377px)/(744 - 377) * (10 - 3) + 3px);
+    width: calc((100vw - 377px)/(744 - 377) * (48 - 17) + 17px);
+    margin-right: calc((100vw - 377px)/(744 - 377) * (15 - 5) + 5px);
+  }
+}

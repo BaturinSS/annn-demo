@@ -1,0 +1,26 @@
+.feedback__button-submit {
+  width: 375px;
+  height: 89px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+}
+
+@media screen and (max-width: 1440px) {
+  .feedback__button-submit {
+    font-size: calc((100vw - 744px)/(1440 - 744) * (30 - 15) + 15px);
+    line-height: calc((100vw - 744px)/(1440 - 744) * (43 - 22) + 22px);
+    width: calc((100vw - 744px)/(1440 - 744) * (375 - 198) + 198px);
+    height: calc((100vw - 744px)/(1440 - 744) * (89 - 56) + 56px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .feedback__button-submit {
+    margin: auto;
+    font-size: 20px;
+    line-height: 29px;
+    width: 367px;
+    height: 60px;
+  }
+}

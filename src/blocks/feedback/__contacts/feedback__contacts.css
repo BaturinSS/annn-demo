@@ -1,0 +1,14 @@
+.feedback__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+@media screen and (max-width: 744px) {
+  .feedback__contacts {
+    row-gap: 20px;
+  }
+}

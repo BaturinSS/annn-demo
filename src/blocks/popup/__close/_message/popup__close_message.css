@@ -1,0 +1,19 @@
+.popup__close_message {
+  top: 45px;
+  right: 50px;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .popup__close_message {
+    top: 35px;
+    right: 35px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .popup__close_message {
+    top: 15px;
+    right: 15px;
+  }
+}

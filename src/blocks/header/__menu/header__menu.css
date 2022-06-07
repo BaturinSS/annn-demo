@@ -1,0 +1,21 @@
+.header__menu {
+  display: none;
+  height: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  transition: 0.8s;
+  /* border: 1px solid red; */
+}
+
+.header__menu:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 730px) {
+  .header__menu {
+    display: flex;
+  }
+}

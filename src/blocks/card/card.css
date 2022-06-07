@@ -1,0 +1,32 @@
+.card {
+  max-width: 503px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 40px;
+  background: #181818;
+  /* border: 1px solid gray; */
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    max-width: 360px;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .card {
+    max-height: 392px;
+    max-width: 218px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .card {
+    max-width: 307px;
+    padding: 15px;
+  }
+}

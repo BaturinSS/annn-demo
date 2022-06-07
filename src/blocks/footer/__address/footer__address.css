@@ -1,0 +1,29 @@
+.footer__address {
+  width: 212px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 33px;
+  color: #EEEEEE;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__address {
+    width: calc((100vw - 744px)/(1440 - 744) * (190 - 95) + 95px);
+    font-size: calc((100vw - 744px)/(1440 - 744) * (20 - 10) + 10px);
+    line-height: calc((100vw - 744px)/(1440 - 744) * (33 - 15) + 15px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__address {
+    width: calc((100vw - 377px)/(744 - 377) * (140 - 100) + 100px);
+    font-size: calc((100vw - 377px)/(744 - 377) * (15 - 10) + 10px);
+    line-height: calc((100vw - 377px)/(744 - 377) * (20 - 15) + 15px);
+  }
+}

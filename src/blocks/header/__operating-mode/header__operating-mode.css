@@ -1,0 +1,25 @@
+.header__operating-mode {
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.7;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #EEEEEE;
+  /* border: 1px solid gray; */
+}
+
+@media screen and (max-width: 1100px) {
+  .header__operating-mode {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__operating-mode {
+    display: none;
+  }
+}

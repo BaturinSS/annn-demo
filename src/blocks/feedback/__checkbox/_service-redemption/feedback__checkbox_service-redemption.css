@@ -1,0 +1,22 @@
+.feedback__checkbox_service-redemption {
+  max-width: 250px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid rebeccapurple; */
+}
+
+@media screen and (max-width: 1100px) {
+  .feedback__checkbox_service-redemption {
+    margin-top: calc((100vw - 745px)/(1100 - 745) * (27 - 20) + 20px);
+    max-width: max-content;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .feedback__checkbox_service-redemption {
+    margin-left: 0;
+    margin-top: calc((100vw - 377px)/(744 - 377) * (20 - 13) + 13px);
+  }
+}

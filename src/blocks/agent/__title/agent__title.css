@@ -1,0 +1,30 @@
+.agent__title {
+  margin: 15px 0 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 880px) {
+  .agent__title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .agent__title {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .agent__title {
+    width: 175px;
+  }
+}

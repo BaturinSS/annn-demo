@@ -1,0 +1,28 @@
+.reviews__text {
+  max-height: 400px;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  -webkit-line-clamp: 13;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1400px) {
+  .reviews__text {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .reviews__text {
+    max-height: 250px;
+    line-height: 18px;
+  }
+}

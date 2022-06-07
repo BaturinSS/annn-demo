@@ -1,0 +1,31 @@
+.card__price {
+  max-width: 423px;
+  margin: 3px 0 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 43px;
+  color: #EEEEEE;
+  /* border: 1px solid green; */
+}
+
+@media screen and (max-width: 1100px) {
+  .card__price {
+    font-size: 25px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .card__price {
+    margin-top: -3px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .card__price {
+    margin-top: 0;
+  }
+}

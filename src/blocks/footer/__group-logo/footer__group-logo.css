@@ -1,0 +1,16 @@
+.footer__group-logo {
+  margin: 0 0 68px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__group-logo {
+    margin-bottom: calc((100vw - 744px)/(1440 - 744) * (68 - 33) + 33px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__group-logo {
+    margin-bottom: 33px;
+  }
+}

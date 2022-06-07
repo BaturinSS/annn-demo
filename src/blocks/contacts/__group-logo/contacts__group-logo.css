@@ -1,0 +1,6 @@
+.contacts__group-logo {
+  margin: 0;
+  padding: 0;
+  grid-area: logo;
+  /* border: 1px solid white; */
+}

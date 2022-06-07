@@ -1,0 +1,12 @@
+.footer__logo-link {
+  width: max-content;
+  margin: -8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  /* border: 1px solid white; */
+}

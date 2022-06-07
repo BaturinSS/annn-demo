@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-auto-flow: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0;
+  padding: 40px 100px 80px;
+  background: #181818;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1440px) {
+  .footer {
+    padding-top: calc((100vw - 744px)/(1440 - 744) * (40 - 26) + 26px);
+    padding-right: calc((100vw - 744px)/(1440 - 744) * (100 - 60) + 60px);
+    padding-bottom: calc((100vw - 744px)/(1440 - 744) * (80 - 40) + 40px);
+    padding-left: calc((100vw - 744px)/(1440 - 744) * (100 - 60) + 60px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer {
+    padding-top: calc((100vw - 377px)/(744 - 377) * (26 - 22) + 22px);
+    padding-right: calc((100vw - 377px)/(744 - 377) * (60 - 20) + 20px);
+    padding-bottom: calc((100vw - 377px)/(744 - 377) * (40 - 30) + 30px);
+    padding-left: calc((100vw - 377px)/(744 - 377) * (60 - 20) + 20px);
+  }
+}

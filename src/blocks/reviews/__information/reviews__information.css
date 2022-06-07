@@ -1,0 +1,26 @@
+.reviews__information {
+  margin: 0 0 19px;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #EEEEEE;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1400px) {
+  .reviews__information {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .reviews__information {
+    margin-bottom: -15px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+}

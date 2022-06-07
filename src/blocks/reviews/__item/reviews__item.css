@@ -1,0 +1,15 @@
+.reviews__item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1050px) {
+  .reviews__item:nth-child(even) {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,22 @@
+.footer__contacts {
+  width: 100%;
+  display: flex;
+  margin: 0 0 -7px 0;
+  padding: 0;
+  column-gap: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__contacts {
+    column-gap: calc((100vw - 744px)/(1440 - 744) * (100 - 40) + 40px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__contacts {
+    row-gap: 33px;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

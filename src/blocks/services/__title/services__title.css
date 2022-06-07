@@ -1,0 +1,37 @@
+.services__title {
+  margin: 151px auto 80px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1100px) {
+  .services__title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .services__title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .services__title {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .services__title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}

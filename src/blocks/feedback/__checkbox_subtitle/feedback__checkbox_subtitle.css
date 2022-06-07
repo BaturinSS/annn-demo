@@ -1,0 +1,10 @@
+.feedback__checkbox_subtitle {
+  display: block;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.feedback__checkbox_subtitle:hover {
+  cursor: pointer;
+}

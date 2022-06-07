@@ -1,0 +1,16 @@
+.foto__button_type_text {
+  /* display: none;
+  min-width: max-content;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: #EEEEEE;
+  z-index: 5; */
+}
+
+@media screen and (max-width: 880px) {
+  /* .foto__button_type_text {
+    display: flex;
+    margin-right: 15px;
+  } */
+}

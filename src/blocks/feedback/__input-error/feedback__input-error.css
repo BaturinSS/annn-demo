@@ -1,0 +1,21 @@
+.feedback__input-error {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  transition: 2s;
+  color: #E25656;
+
+}
+
+@media screen and (max-width: 1440px) {
+  .feedback__input-error {
+    font-size: calc((100vw - 377px)/(1440 - 377) * (20 - 10) + 10px);
+    line-height: calc((100vw - 377px)/(1440 - 377) * (30 - 15) + 15px);
+  }
+}

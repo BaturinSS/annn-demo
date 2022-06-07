@@ -1,0 +1,25 @@
+.reviews__title {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  /* border: 1px solid green; */
+}
+
+@media screen and (max-width: 880px) {
+  .reviews__title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .reviews__title {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}

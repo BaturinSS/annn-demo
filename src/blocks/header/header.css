@@ -1,0 +1,35 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-areas:
+    "logo links contacts";
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 23px 100px;
+  background-color: #181818;
+  z-index: 5;
+  /* border: 1px solid gray; */
+}
+
+@media screen and (max-width: 930px) {
+  .header {
+    padding: 23px 50px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header {
+    grid-template-areas:
+      "logo contacts "
+      "logo links";
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 25px 20px;
+  }
+}

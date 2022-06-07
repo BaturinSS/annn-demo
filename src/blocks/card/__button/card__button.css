@@ -1,0 +1,39 @@
+.card__button {
+  width: 247px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 30px 0 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  color: #181818;
+}
+
+@media screen and (max-width: 1100px) {
+  .card__button {
+    width: 200px;
+    height: 70px;
+    margin-top: 19px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .card__button {
+    width: 134px;
+    height: 52px;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .card__button {
+    margin-top: 10px;
+  }
+}

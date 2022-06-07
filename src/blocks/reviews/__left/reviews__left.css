@@ -1,0 +1,34 @@
+.reviews__left {
+  display: flex;
+  width: 23px;
+  height: 23px;
+  margin: 0 18px 0 0;
+  padding: 0;
+  border: none;
+  border-top: 2px solid #EEEEEE;
+  border-right: 2px solid #EEEEEE;
+  opacity: 0.4;
+  background: none;
+  transform: rotate(225deg);
+}
+
+@media screen and (max-width: 1400px) {
+  .reviews__left {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .reviews__left {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .reviews__left {
+    outline: none;
+  }
+}

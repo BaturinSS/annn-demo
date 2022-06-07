@@ -1,0 +1,32 @@
+.reviews__radio-input {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.reviews__radio-input:hover+.reviews__radio-new {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.reviews__radio-input+.reviews__radio-new:before {
+  content: '';
+  visibility: visible;
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  width: 110%;
+  height: 110%;
+  background-color: #CD9451;
+  margin: 0;
+  border-radius: 100%;
+  transition: 0.5s;
+}
+
+.reviews__radio-input:checked+.reviews__radio-new:before {
+  visibility: visible;
+  opacity: 1;
+}

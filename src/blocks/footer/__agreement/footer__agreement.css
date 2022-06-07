@@ -1,0 +1,11 @@
+.footer__agreement {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__agreement:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

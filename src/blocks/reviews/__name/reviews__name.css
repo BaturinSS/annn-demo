@@ -1,0 +1,22 @@
+.reviews__name {
+  margin-bottom: 10px;
+  min-width: 100%;
+  padding: 0;
+  margin: 14px 0 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #CD9451;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 744px) {
+  .reviews__name {
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

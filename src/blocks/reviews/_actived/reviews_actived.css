@@ -1,0 +1,8 @@
+.reviews_actived {
+  opacity: 1;
+}
+
+.reviews_actived:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

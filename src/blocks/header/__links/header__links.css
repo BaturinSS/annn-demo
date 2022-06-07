@@ -1,0 +1,30 @@
+.header__links {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0 0 0 18px;
+  gap: 0 60.5px;
+  transition: 0.8s;
+  list-style-type: none;
+  grid-area: links;
+  /* border: 1px solid gray; */
+}
+
+@media screen and (max-width: 1100px) {
+  .header__links {
+    gap: 0 20px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px 0;
+    margin-top: 15px;
+    margin-bottom: -10px;
+  }
+}

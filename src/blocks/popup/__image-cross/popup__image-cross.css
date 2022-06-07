@@ -1,0 +1,4 @@
+.popup__image-cross {
+  width: 100%;
+  object-fit: contain;
+}

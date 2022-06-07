@@ -1,0 +1,35 @@
+.footer__documents {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19.5px;
+  text-decoration: none;
+  text-decoration-line: underline;
+  opacity: 0.5;
+  transition: 0.5s;
+  /* grid-area: politics; */
+  row-gap: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__documents {
+    row-gap: calc((100vw - 744px)/(1440 - 744) * (10 - 5) + 5px);
+    font-size: calc((100vw - 744px)/(1440 - 744) * (15 - 8) + 8px);
+    line-height: calc((100vw - 744px)/(1440 - 744) * (19.5 - 10) + 10px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__documents {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 25px;
+    row-gap: 5px;
+    font-size: calc((100vw - 377px)/(744 - 377) * (15 - 8) + 8px);
+    line-height: calc((100vw - 377px)/(744 - 377) * (19 - 10) + 10px);
+  }
+}

@@ -1,0 +1,7 @@
+.popup__box {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  /*border: 1px solid red;*/
+}

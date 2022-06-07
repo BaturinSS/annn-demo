@@ -1,0 +1,31 @@
+.footer__link {
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+  color: #EEEEEE;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__link {
+    font-size: calc((100vw - 744px)/(1440 - 744) * (20 - 10) + 10px);
+    line-height: calc((100vw - 744px)/(1440 - 744) * (29 - 15) + 15px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .footer__link {
+    font-size: calc((100vw - 377px)/(744 - 377) * (15 - 10) + 10px);
+    line-height: calc((100vw - 377px)/(744 - 377) * (20 - 15) + 15px);
+  }
+}

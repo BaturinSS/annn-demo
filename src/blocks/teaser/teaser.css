@@ -1,0 +1,13 @@
+.teaser {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90.19deg, rgba(24, 24, 24, 0.9) 30%, rgba(103, 103, 103, 0.4) 92.48%, rgba(196, 196, 196, 0) 140.33%), url('../../images/teaser/image_home_page.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  opacity: 0.9;
+  z-index: 2;
+  /* border: 1px solid green; */
+}

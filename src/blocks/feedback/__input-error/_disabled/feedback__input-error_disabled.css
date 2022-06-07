@@ -1,0 +1,4 @@
+.feedback__input-error_disabled {
+  visibility: hidden;
+  opacity: 0;
+}

@@ -1,0 +1,10 @@
+.footer__logo-telegram {
+  margin: 20px 0 0;
+  padding: 0;
+  max-width: 245px;
+  transition: 0.8s;
+}
+
+.footer__logo-telegram:hover {
+  opacity: 0.5;
+}

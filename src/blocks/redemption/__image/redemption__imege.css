@@ -1,0 +1,26 @@
+.redemption__image {
+  width: 300px;
+  height: 275px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .redemption__image {
+    width: calc((100vw - 744px)/(1440 - 744) * (300 - 150) + 150px);
+    height: calc((100vw - 744px)/(1440 - 744) * (275 - 134) + 134px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .redemption__image {
+    width: calc((100vw - 377px)/(744 - 377) * (150 - 63) + 63px);
+    height: calc((100vw - 377px)/(744 - 377) * (134 - 57) + 57px);
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .redemption__image {
+    margin-left: -50px;
+  }
+}

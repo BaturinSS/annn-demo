@@ -1,0 +1,18 @@
+.contacts__logo {
+  width: 153px;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts__logo {
+    width: calc((100vw - 744px)/(1440 - 744) * (153 - 71) + 71px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .contacts__logo {
+    width: calc((100vw - 377px)/(744 - 377) * (153 - 76) + 76px);
+  }
+}

@@ -1,0 +1,22 @@
+.footer__links {
+  width: 100%;
+  margin: 0 0 -7px 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  grid-column: 2/4;
+  grid-row: 1/2;
+  /* border: 1px solid royalblue; */
+}
+
+@media screen and (max-width: 744px) {
+  .footer__links {
+    height: 100%;
+    margin: 0;
+    justify-content: flex-start;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    row-gap: 8px;
+  }
+}

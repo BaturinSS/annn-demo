@@ -1,0 +1,27 @@
+.contacts {
+  margin: 0;
+  padding: 150px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts {
+    padding-top: calc((100vw - 744px)/(1440 - 744) * (150 - 80) + 80px);
+    padding-right: calc((100vw - 744px)/(1440 - 744) * (100 - 60) + 60px);
+    padding-bottom: calc((100vw - 744px)/(1440 - 744) * (150 - 80) + 80px);
+    padding-left: calc((100vw - 744px)/(1440 - 744) * (100 - 60) + 60px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .contacts {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-top: calc((100vw - 377px)/(744 - 377) * (80 - 40) + 40px);
+    padding-right: 20px;
+    padding-bottom: calc((100vw - 377px)/(744 - 377) * (80 - 50) + 50px);
+    padding-left: 20px;
+  }
+}

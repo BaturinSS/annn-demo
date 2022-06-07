@@ -1,0 +1,28 @@
+.feedback__checkbox_new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  height: 30px;
+  margin: 7px 0 0;
+  padding: 0;
+  background: #262626;
+  border: 1px solid rgba(205, 148, 81, 0.2);
+}
+
+@media screen and (max-width: 1440px) {
+  .feedback__checkbox_new {
+    min-width: calc((100vw - 744px)/(1440 - 744) * (30 - 21) + 21px);
+    height: calc((100vw - 744px)/(1440 - 744) * (30 - 21) + 21px);
+    margin-top: calc((100vw - 744px)/(1440 - 744) * (7 - 3) + 3px);
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .feedback__checkbox_new {
+    min-width: calc((100vw - 377px)/(744 - 377) * (21 - 22) + 22px);
+    height: calc((100vw - 377px)/(744 - 377) * (21 - 22) + 22px);
+    margin-top: 0
+      /* calc((100vw - 377px)/(744 - 377) * (5 - 6) + 6px); */
+  }
+}
