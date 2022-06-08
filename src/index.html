@@ -848,30 +848,36 @@
         <img class="footer__logo-telegram" src="<%=require('./images/footer/telegram-logo.jpg')%>"
           alt="логотип телеграм"></a>
     </div>
-    <div class="popup popup_type_message">
-      <div class="popup__box popup__box_message">
-        <button class="popup__close popup__close_message" type="button"></button>
-        <img class="popup__image-ok" src="<%=require('./images/popup/image-ok.svg')%>" alt="символ">
-        <h3 class="popup__title">Отлично!</h3>
-        <p class="popup__subtitle">Ваша заявка принята.<span>Мы свяжимся с вами в течении 15 минут.</span></p>
+    <template id="popupImageZoom">
+      <div class="popup popup_type_image-zoom">
+        <div class="popup__box">
+          <button class="popup__close popup__close_video" type="button"><img class="popup__image-cross"
+              src="<%=require('./images/popup/image-cross.svg')%>" alt="иконка"></button>
+          <img class="popup__image" src="<%=require('./images/demo-document.jpg')%>" alt="фотография">
+        </div>
       </div>
-    </div>
-    <div class="popup popup_type_play-video">
-      <div class="popup__box popup__box_video">
-        <button class="popup__close popup__close_video" type="button"><img class="popup__image-cross"
-            src="<%=require('./images/popup/image-cross.svg')%>" alt="иконка"></button>
-        <video class="popup__video" controls="controls">
-          <source src="<%=require('./video/agent/moreTest.mp4')%>" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-        </video>
+    </template>
+    <template id="popupPlayVideo">
+      <div class="popup popup_type_play-video">
+        <div class="popup__box popup__box_video">
+          <button class="popup__close popup__close_video" type="button"><img class="popup__image-cross"
+              src="<%=require('./images/popup/image-cross.svg')%>" alt="иконка"></button>
+          <video class="popup__video" controls="controls">
+            <source src="<%=require('./video/agent/moreTest.mp4')%>" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          </video>
+        </div>
       </div>
-    </div>
-    <div class="popup popup_type_image-zoom">
-      <div class="popup__box">
-        <button class="popup__close popup__close_video" type="button"><img class="popup__image-cross"
-            src="<%=require('./images/popup/image-cross.svg')%>" alt="иконка"></button>
-        <img class="popup__image" src="<%=require('./images/demo-document.jpg')%>" alt="фотография">
+    </template>
+    <template id="popupMessage">
+      <div class="popup popup_type_message">
+        <div class="popup__box popup__box_message">
+          <button class="popup__close popup__close_message" type="button"></button>
+          <img class="popup__image-ok" src="<%=require('./images/popup/image-ok.svg')%>" alt="символ">
+          <h3 class="popup__title">Отлично!</h3>
+          <p class="popup__subtitle">Ваша заявка принята.<span>Мы свяжимся с вами в течении 15 минут.</span></p>
+        </div>
       </div>
-    </div>
+    </template>
     <template id="indicator-template">
       <label class="reviews__radio-label" for="">
         <input class="reviews__radio-input" id="" type="radio" name="reviewsPage">

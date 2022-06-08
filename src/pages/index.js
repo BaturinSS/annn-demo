@@ -29,9 +29,9 @@ let reviewsNumberPage = 4;
 let numberPage = 1;
 
 const section = new Section(rendereIndicator, '.reviews__list');
-const popupImageZoom = new Popup('.popup_type_image-zoom');
-const popupPlayVideo = new Popup('.popup_type_play-video');
-const popupMessage = new Popup('.popup_type_message');
+const popupImageZoom = new Popup('#popupImageZoom');
+const popupPlayVideo = new Popup('#popupPlayVideo');
+const popupMessage = new Popup('#popupMessage');
 
 //*Заполняем по расписанию данные об агенте
 const agentDataLoading = () => {
@@ -303,6 +303,13 @@ const openPopupSubmit = (evt) => {
   checkedInputValid();
 }
 
+//*Созаем модальные окна
+const setPopup = () => {
+  popupMessage.setPopup();
+  popupImageZoom.setPopup();
+  popupPlayVideo.setPopup();
+}
+
 //! Восстановить для коректоной работы формы.
 //! Выключил чтобы сделать демонстрацию сайта
 // //*Обработка события отправки формы обратной связи
@@ -332,15 +339,15 @@ const openPopupSubmit = (evt) => {
 //! Восстановить для коректоной работы формы.
 //! Выключил чтобы сделать демонстрацию сайта
 
-//* Сборка formData для отправки по почте
-const assemblingDataSendServer = () => {
-  let formData = new FormData(form);
-  const date = new Date();
-  formData.append("date", `${date}`);
-  formData.append("agentName", `${agentName.textContent}`);
-  // console.log(Array.from(formData));
-  return formData;
-}
+// //* Сборка formData для отправки по почте
+// const assemblingDataSendServer = () => {
+//   let formData = new FormData(form);
+//   const date = new Date();
+//   formData.append("date", `${date}`);
+//   formData.append("agentName", `${agentName.textContent}`);
+//   // console.log(Array.from(formData));
+//   return formData;
+// }
 
 //*Первоначальный замер ширины экрана и выставление количества отзывов на странице
 eventChangeScreenWidth();
@@ -393,19 +400,19 @@ checkboxInputs.forEach(input => {
 //*Подписка на клик по фотографии полиса страхования
 policyFoto.addEventListener('click', openPopupImagePolicy)
 
-//*Подписка на оверлей и закрыть попап с фотографией
-popupImageZoom.setEventListeners();
+// //*Подписка на оверлей и закрыть попап с фотографией
+// popupImageZoom.setEventListeners();
 
 //*Подписка на кнопку воспроизведения видео
 buttonPlayVideo.forEach(button => {
   button.addEventListener('click', openPopupVideo)
 })
 
-//*Подписка на оверлей и закрыть попап с видео
-popupPlayVideo.setEventListeners();
+// //*Подписка на оверлей и закрыть попап с видео
+// popupPlayVideo.setEventListeners();
 
-//*Подписка на оверлей и закрыть попап с видео
-popupMessage.setEventListeners();
+// //*Подписка на оверлей и закрыть попап с видео
+// popupMessage.setEventListeners();
 
 //*Заполняем данные об агенте
 agentDataLoading();
@@ -413,3 +420,6 @@ agentDataLoading();
 //! Дополнетельная информация дла демо режима
 //* Заполнение данных об авторе при запуске
 autoDate();
+
+//* Первоначальное создание попапов
+setTimeout(setPopup, 3000);

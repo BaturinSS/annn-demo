@@ -1,7 +1,30 @@
 class Popup {
-  constructor(popupSelector) {
-    this._popup = document.querySelector(popupSelector);
+  constructor(selectorTemplate) {
+    this._selectorTemplate = selectorTemplate;
+    this._container = document.querySelector('.root')
+    // this._popup = document.querySelector(popupSelector);
+
     this._handleEscClose = this._handleEscClose.bind(this);
+
+  };
+
+  _getTemplate() {
+    const elementIndicator = document
+      .querySelector(this._selectorTemplate)
+      .content
+      .querySelector('.popup')
+      .cloneNode(true);
+    return elementIndicator;
+  };
+
+  _generatePopup() {
+    this._popup = this._getTemplate();
+    this._setEventListeners();
+    return this._popup;
+  };
+
+  setPopup() {
+    this._container.append(this._generatePopup())
   };
 
   open() {
@@ -20,7 +43,7 @@ class Popup {
     };
   };
 
-  setEventListeners() {
+  _setEventListeners() {
     this._popup.addEventListener('mousedown', (event) => {
       if (event.target.classList.contains('popup_opened') || event.target.classList.contains('popup__close') || event.target.classList.contains('popup__image-cross')) {
         this.close();
