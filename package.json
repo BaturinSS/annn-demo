@@ -1,5 +1,5 @@
 {
-  "name": "annn_lp",
+  "name": "annn-demo",
   "version": "1.0.0",
   "description": "Продающий лендинг для агентства недвижимости в Нижнем Новгороде",
   "main": "babel.config.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BaturinSS/ANNN_LP.git"
+    "url": "git+https://github.com/BaturinSS/annn-demo.git"
   },
   "keywords": [],
   "author": "Sergey Baturin",
   "license": "",
   "bugs": {
-    "url": "https://github.com/BaturinSS/ANNN_LP/issues"
+    "url": "https://github.com/BaturinSS/annn-demo/issues"
   },
-  "homepage": "https://github.com/BaturinSS/ANNN_LP#readme",
+  "homepage": "https://github.com/BaturinSS/annn-demo#readme",
   "dependencies": {
     "core-js": "^3.22.7",
     "install": "^0.13.0",
