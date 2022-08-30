@@ -1,6 +1,6 @@
 ## [Проект: ANNN_LP](https://baturinss.github.io/annn-demo)
 
-[Видео. Краткий обзор](https://user-images.githubusercontent.com/94468513/163075115-f2bbe1a0-51f3-4118-b5f6-601b5370f4c2.mp4)
+[Видео. Краткий обзор](https://user-images.githubusercontent.com/94468513/187558817-30ecd409-5139-488e-9bf2-b59b350809d1.mp4)
 
 ### 🌕 Краткое описание:
 
